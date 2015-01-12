@@ -1,0 +1,55 @@
+body{
+    font: 1em 'PT Sans', Tahoma, Arial;
+    color: rgba(0,0,0,0.8);
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    display: block;
+    position: relative;
+    margin: 100px auto;
+    width: 420px;
+    height: 300px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
+    padding-left: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+input{
+    display: block;
+}
+#display{
+    width: 337px;
+    height: 30px;
+    font-size: 28px;
+    color: rgba(65, 65, 75, 0.62);
+    border: 1px solid rgba(0,0,0,.2);
+    text-align: end;
+}
+#answer{
+    width: 335px;
+    border: none;
+    background: transparent;
+    color: rgba(65, 65, 75, 0.62);
+    text-align: end;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 15px 0 0;
+    padding: 0;
+}
+li{
+    display: block;
+    width: 50px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,.2);
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: #3f86ff;
+}
+
