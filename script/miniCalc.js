@@ -12,7 +12,7 @@ var flagToUpdateDisplay='';
 var HTMLiconButtonCalc = ['+/-', 7, 4, 1, 0, 'Ans', 8, 5, 2, '.', '&larr;', 9, 6, 3, '=', 'CE', '&divide;', '&times;', '-','+'];
 var funcButtonCalc = ['+/-', 7, 4, 1, 0, 'Ans', 8, 5, 2, '.', 'C', 9, 6, 3, '=', 'CE', 'share', 'multiple', 'rob','add'];
 
-var mathOperationObj = new Object();
+var mathOperationObj = {};
 mathOperationObj.share = function() {Answer = firstMathNumber/secondMathNumber };
 mathOperationObj.multiple = function() {Answer = firstMathNumber*secondMathNumber };
 mathOperationObj.rob = function() {Answer = firstMathNumber-secondMathNumber };
@@ -30,7 +30,7 @@ var calcButton={
     },
     '.': function() {
         updDispAfterRecNumber();
-        ()dispData += '.';
+        dispData += '.';
         updDisplay();
     },
     'C': function(){
