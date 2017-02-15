@@ -15,4 +15,4 @@ just open miniCalc.html in your browser
 
 ## Live Demo
 
-[Thanks to RxJS Crash Course.](https://www.youtube.com/watch?v=ei7FsoXKPl0) 
+[MiniCalc live demo](http://stich6269.github.io/miniCalc/) 
